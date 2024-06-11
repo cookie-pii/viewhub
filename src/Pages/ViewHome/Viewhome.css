@@ -1,0 +1,41 @@
+.container{
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.large-container{
+    padding-left: 7%;
+
+}
+.main-content {
+    margin-left: 17%;
+    padding: 20px; 
+ }
+ 
+
+ .content-box {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: calc(100% - 40px); 
+ }
+ 
+
+ @media screen and (max-width: 768px) {
+     .sidebar {
+         width: 100%;
+         height: auto;
+         position: relative;
+     }
+ 
+     .main-content {
+         margin-left: 0;
+     }
+ 
+     .content-box {
+         width: 100%;
+     }
+ }
+ 

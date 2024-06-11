@@ -1,0 +1,70 @@
+/* Sidebar styling */
+.sidebar {
+  background: #fff;
+  width: 15%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  padding-left: 2%;
+  padding-top: 80px;
+}
+
+/* Shortcut links in the sidebar */
+.shortcut-links img {
+  width: 20px;
+  margin-right: 20px;
+}
+
+/* Sidebar link styling */
+.side-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+/* Sidebar horizontal rule */
+.sidebar hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  width: 85%;
+}
+
+/* Subscribed list in the sidebar */
+.suscribed-list h3 {
+  font-size: 13px;
+  margin: 20px 0;
+  color: #5a5a5a;
+}
+
+.suscribed-list img {
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Small sidebar styling */
+.small-sidebar {
+  width: 5%;
+}
+
+.small-sidebar p, .small-sidebar h3 {
+  display: none;
+}
+
+.small-sidebar hr {
+  width: 50%;
+  margin-bottom: 25px;
+}
+.side-link.active img{
+  padding-bottom: 2px;
+  border-bottom: 3px solid #2c3e50;
+}
+@media (max-width:900px) {
+  .sidebar{
+    display: none;
+  }
+}

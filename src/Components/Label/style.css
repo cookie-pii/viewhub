@@ -1,0 +1,41 @@
+.LABEL {
+  height: 28px;
+  position: relative;
+  width: 218px;
+}
+
+.LABEL .div {
+  color: transparent;
+  font-family: var(--headings-h6-font-family);
+  font-size: var(--headings-h6-font-size);
+  font-style: var(--headings-h6-font-style);
+  font-weight: var(--headings-h6-font-weight);
+  left: 0;
+  letter-spacing: var(--headings-h6-letter-spacing);
+  line-height: var(--headings-h6-line-height);
+  position: absolute;
+  text-align: right;
+  top: -1px;
+  white-space: nowrap;
+  width: 218px;
+}
+
+.LABEL .text-wrapper {
+  color: #718096;
+  font-family: var(--headings-h6-font-family);
+  font-size: var(--headings-h6-font-size);
+  font-style: var(--headings-h6-font-style);
+  font-weight: var(--headings-h6-font-weight);
+  letter-spacing: var(--headings-h6-letter-spacing);
+  line-height: var(--headings-h6-line-height);
+}
+
+.LABEL .span {
+  color: #425466;
+  font-family: var(--headings-h6-font-family);
+  font-size: var(--headings-h6-font-size);
+  font-style: var(--headings-h6-font-style);
+  font-weight: var(--headings-h6-font-weight);
+  letter-spacing: var(--headings-h6-letter-spacing);
+  line-height: var(--headings-h6-line-height);
+}

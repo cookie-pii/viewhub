@@ -1,0 +1,38 @@
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column width */
+  gap: 20px; /* Add gap between items */
+  padding: 20px;
+}
+
+.search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items */
+  text-decoration: none;
+  color: black;
+}
+
+.search-result img {
+  width: 100%; /* Make image width 100% of container */
+  height: auto; /* Auto adjust image height */
+  object-fit: cover;
+  margin-bottom: 10px; /* Add space between image and info */
+}
+
+.search-result-info {
+  text-align: center; /* Center align text */
+}
+
+.search-result-info h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px; /* Add space below title */
+}
+
+.search-result-info p {
+  margin: 0;
+  font-size: 10px;
+  color: #606060;
+}
